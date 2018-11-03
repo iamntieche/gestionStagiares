@@ -1,3 +1,8 @@
+<?php
+require_once('identifier.php');
+
+?>
+
 
 <nav class="navbar navbar-inverse navbar-fixed-top"><!--navbar:  barre de navigation; inverse: couleur; fixed-top: fixé  -->
 	<div class="container-fluid"><!-- balise fluid: permet a l'application de s'adapter en fonction de l'ecran -->

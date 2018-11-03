@@ -1,4 +1,5 @@
 <?php 
+	 require_once('identifier.php');
      require_once('connexiondb.php');
     $message=isset($_GET['message'])?$_GET['message']:"Erreur";
 

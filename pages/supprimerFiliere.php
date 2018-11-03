@@ -1,4 +1,5 @@
 <?php 
+if(!isset($_SESSION['user'])){
 	require_once('connexiondb.php');
 
 	$idf=isset($_GET['idF'])?$_GET['idF']:0;
@@ -21,6 +22,9 @@ if ($nbrStag==0) {
 {
 	$msg=" Suppression impossible: Vous devez supprimer tout les stagiaires inscris dans cette filière";
 	header("location:alerte.php?message=$msg");
+}
+}else{
+	header('location:login.php');
 }
 	
 

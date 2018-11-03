@@ -1,3 +1,7 @@
+<?php
+require_once('identifier.php');
+?>
+
 <!DOCTYPE html>
 <html>
 <head>

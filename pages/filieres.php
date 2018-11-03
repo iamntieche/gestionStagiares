@@ -1,8 +1,9 @@
 <?php
+	require_once('identifier.php');
 //instancier le fichier de connexion a la bd. il existe 3 façon de se connecter a ala bd
   //  include("connexiondb.php");//copier-coller du fichier connexiondb.php
   //  require("connexiondb.php");//interpretation du fichier connexiondb.php et affiche le rt
-    require_once("connexiondb.php");//interpretation du fichier connexiondb.php et affiche le rt sans plus recompiler
+	 require_once("connexiondb.php");//interpretation du fichier connexiondb.php et affiche le rt sans plus recompiler
   // $nomf=isset($_GET['nomF'])?($_GET['nomF']):"";  ce code joue le meme role que celui avec ? et :
    // $niveau=isset($_GET['niveau'])?($_GET['niveau']):"all";
     //recuperation des valeurs de l'url

@@ -1,4 +1,5 @@
 <?php 
+	 require_once('identifier.php');
      require_once('connexiondb.php');
     $idf=isset($_GET['idF'])?$_GET['idF']:0;
     $requete=" select * from filiere where idFiliere=$idf";

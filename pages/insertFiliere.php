@@ -1,4 +1,5 @@
 <?php 
+	require_once('identifier.php');
 	require_once('connexiondb.php');
 
 	$nomf=isset($_POST['nomF'])?$_POST['nomF']:"";

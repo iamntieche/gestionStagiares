@@ -1,4 +1,5 @@
 <?php
+require_once('identifier.php');
 //instancier le fichier de connexion a la bd. il existe 3 façon de se connecter a ala bd
   //  include("connexiondb.php");//copier-coller du fichier connexiondb.php
   //  require("connexiondb.php");//interpretation du fichier connexiondb.php et affiche le rt
@@ -138,7 +139,7 @@ $idfiliere=isset($_GET['idfiliere'])?($_GET['idfiliere']):0;
 								    		<span class="glyphicon glyphicon-edit"></span>
 								    	</a>
 								    	&nbsp &nbsp
-								    	<a onClick="return confirm('êtes-vous sûre de vouloire supprimer le Stagiare')"
+								    	<a onClick="return confirm('êtes-vous sûre de vouloire supprimer le Stagiaire')"
 								    	 href="supprimerStagiaire.php?idS=<?php echo $stagiaire['idStagiaire']?>">
 								    		<span class="glyphicon glyphicon-trash"></span>
 								    	</a>
